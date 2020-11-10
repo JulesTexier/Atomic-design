@@ -1,0 +1,176 @@
+/* demo.css */
+
+
+
+/* -----------------footer-------------------- */
+
+.footer {
+  background-color: #2c3e50;
+  padding: 2em;
+  color: white;
+  margin: auto;
+
+}
+
+.social-icon {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+
+/* -----------------Jumbotron-------------------- */
+
+.jumbotron {
+  background-size: cover;
+  background-position-y: center;
+  display: flex;
+  height:600px ;
+  background-image: url(https://images.unsplash.com/photo-1520483691742-bada60a1edd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)
+}
+
+/* -----------------presentation-------------------- */
+
+.presentation  { 
+height:340px ;
+object-fit: cover;
+-ms-flex-negative:0
+;flex-shrink:0;width:100%
+}
+
+/* -----------------bannière-------------------- */
+
+.big-ban {
+  background-size: cover;
+  background-position-y: center;
+  display: flex;
+  height:400px ;
+  background-image: url(https://images.unsplash.com/photo-1520483691742-bada60a1edd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)
+}
+
+.sm-ban {
+  background-size: cover;
+  background-position-y: center;
+  display: flex;
+  height:300px ;
+  background-image: url(https://images.unsplash.com/photo-1534671620926-95c2d0349465?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)
+}
+
+.title-ban {
+  color: white;
+  font-size: 5rem;
+}
+
+
+.text-ban {
+  color: white;
+  font-size: 2rem;
+  font-weight:lighter;
+}
+
+
+/* -----------------cards-------------------- */
+
+.event-card {
+  width: 16rem; 
+  border:1px solid rgba(0,0,0,.125);
+  border-radius:.25rem;
+  margin: auto;
+  object-fit: cover;
+}
+
+.city-card {
+  width: 16rem; 
+  border:1px solid rgba(0,0,0,.125);
+  border-radius:.25rem;
+  margin: auto;
+}
+
+
+.list-event{
+  width: 80%; 
+  margin: auto;
+}
+
+.city-img-top {
+  height:340px ;
+  object-fit: cover;
+  -ms-flex-negative:0
+  ;flex-shrink:0;width:100%}
+  
+  
+.city-img-top {
+  border-top-left-radius:calc(.25rem - 1px);
+  border-top-right-radius:calc(.25rem - 1px)}
+  
+.city-img-bottom {
+  border-bottom-right-radius:calc(.25rem - 1px)
+  ;border-bottom-left-radius:calc(.25rem - 1px)}
+
+
+/* -----------------Comments-------------------- */
+
+
+.comment-bloc {
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px;
+  border:1px solid rgba(0,0,0,.125);
+  border-radius:.25rem;
+}
+
+.comment {
+  margin-bottom: 20px;
+
+}
+
+.media-object {
+  height: 150%;
+  width: 150%;
+}
+.comment-title{
+  font-size: 16px;
+  font-weight:bold;
+  margin-bottom: -3px;
+}
+
+.comment-text{
+  font-size: 12px;
+  font-weight:bold;
+  margin-bottom: -2px;
+}
+.komen {
+}
+.geser {
+  margin-left:55px;
+}
+
+.comment-form {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 30px;
+  border:1px solid rgba(0,0,0,.125);
+  border-radius:.25rem;
+}
+
+/* -----------------Comments-------------------- */
+
+
+.header-event {
+  background-size: cover;
+  background-position-y: center;
+  display: flex;
+  height:400px ;
+  background-image: url(https://images.unsplash.com/photo-1520483691742-bada60a1edd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)
+}
+
+
+
+
+
+
+
+
+
+/*https://www.anousparis.fr/app/uploads/2017/11/15194503_10153878660491401_8799999959602780635_o-300x200.jpg 300w, https://www.anousparis.fr/app/uploads/2017/11/15194503_10153878660491401_8799999959602780635_o-768x512.jpg 768w, https://www.anousparis.fr/app/uploads/2017/11/15194503_10153878660491401_8799999959602780635_o-1024x683.jpg 1024w, https://www.anousparis.fr/app/uploads/2017/11/15194503_10153878660491401_8799999959602780635_o-e1511374459163.jpg 1000w
