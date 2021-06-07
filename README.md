@@ -1,7 +1,7 @@
 ![Screenshot](Screenshot.png)
 
 # Atomic-design
-Création d'UI et de molécules pour un site factice.
+Création d'UI et de molécules pour un site factice via Bootstrap.
 
 ## Les éléments :
 - Navbar
